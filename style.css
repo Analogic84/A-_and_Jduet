@@ -1,0 +1,166 @@
+body {
+
+    background: #488BAD;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.bodyindex {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1.5fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.grid-container {
+    grid-row: 1/2;
+    grid-column: 1/4;
+
+}
+
+h1 {
+
+    text-align: center;
+    align-items: center;
+    font-family: georgia, sans-serif;
+    font-size: 10%;
+    font-style: oblique;
+    color: coral;
+    text-shadow: -2px -2px 1px #000;
+    background-image: url(img/columns_violin-300x248.jpg);
+}
+
+nav {
+    margin: 1%;
+}
+
+.li {
+
+    padding: 0;
+    text-decoration: none;
+    font: sans-serif, georgia;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.active {
+    background-color: coral;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+}
+
+.bodyservices h2 {
+    text-align: justify;
+}
+
+.flex-container {
+    flex-wrap: wrap;
+    grid-column: 1/4;
+    margin: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container img {
+
+    border: 4px solid coral;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+
+#ul main li {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+
+.container main li {
+    flex: 1 1 auto;
+    flex-basis: auto;
+}
+
+.intro {
+    font-size: 100%;
+    margin: 2%;
+    text-align:justify;
+    color: black;
+}
+
+.ana-img {
+    border: 4px solid coral;
+    border-radius: 50%;
+    margin: 1%;
+    padding: 0;
+}
+
+.jashi-img {
+    border: 4px solid coral;
+    border-radius: 50%;
+    margin: 1%;
+    padding: 0;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    grid-column: 1/4;
+    margin: 1%;
+    text-align: justify;
+}
+
+.profile {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 2%;
+
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.copyright {
+    text-align: center;
+}
+.indexfaq p{
+    display: flex;
+    font-weight: 600;
+}
+.indexfaq{
+    display:flex;
+}

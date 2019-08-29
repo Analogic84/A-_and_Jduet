@@ -23,7 +23,6 @@ h1 {
     text-align: center;
     align-items: center;
     font-family: georgia, sans-serif;
-    font-size: 10%;
     font-style: oblique;
     color: coral;
     text-shadow: -2px -2px 1px #000;
@@ -90,7 +89,7 @@ li a:hover:not(.active) {
 .intro {
     font-size: 100%;
     margin: 2%;
-    text-align:justify;
+    text-align: justify;
     color: black;
 }
 
@@ -121,14 +120,25 @@ li a:hover:not(.active) {
     flex-direction: row;
 }
 
-.picture {
+.a {
     display: flex;
-    justify-content: center;
+    float: right;
+ 
 
 }
 
+.boda-img {
+    float: right;
+    border: 4px solid coral;
+    border-radius: 50%;
+    margin: 1%; 
+}
+
+
+
 
 table {
+
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 50%;
@@ -157,10 +167,12 @@ tr:nth-child(even) {
 .copyright {
     text-align: center;
 }
-.indexfaq p{
+
+.indexfaq p {
     display: flex;
     font-weight: 600;
 }
-.indexfaq{
-    display:flex;
+
+.indexfaq {
+    display: flex;
 }
